@@ -4,6 +4,11 @@
     "description": "Print snippets in multiple languages so you don't have to type them",
     "version": "1.0.0",
     "publisher": "Andrew Li",
+    "icon": "img/logo.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Zeyu-Li/vscode-prints"
+    },
     "engines": {
         "vscode": "^1.52.0"
     },
@@ -19,6 +24,34 @@
             {
                 "language": "typescript",
                 "path": "./snippets/ts_snippets.code-snippets"
+            },
+            {
+                "language": "lua",
+                "path": "./snippets/lua_snippets.code-snippets"
+            },
+            {
+                "language": "c",
+                "path": "./snippets/c_snippets.code-snippets"
+            },
+            {
+                "language": "cpp",
+                "path": "./snippets/cpp_snippets.code-snippets"
+            },
+            {
+                "language": "csharp",
+                "path": "./snippets/cs_snippets.code-snippets"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/py_snippets.code-snippets"
+            },
+            {
+                "language": "shell",
+                "path": "./snippets/sh_snippets.code-snippets"
+            },
+            {
+                "language": "powershell",
+                "path": "./snippets/ps_snippets.code-snippets"
             }
         ]
     }
