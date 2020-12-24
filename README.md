@@ -4,7 +4,29 @@ Tired of writing print statements? Well this extension has print snippets in mul
 
 ## Languages
 
-
+* JavaScript
+  * `!p` - `console.log`
+  * `!d` - `console.debug`
+  * `!e` - `console.error`
+  * `!w` - `console.warn`
+* TypeScript
+  * Same as JavaScript
+* Python
+  * `!p` - `print`
+* Lua
+  * `!p` - `print`
+* C
+  * `!p` - `printf`
+* C++
+  * `!p` - `printf`
+  * `!c` - `cout` (with endline at the end)
+  * `!sc` - `std::cout` (with endline)
+* C#
+  * `!p` - `Console.WriteLine`
+* Shell
+  * `!p` - `echo `
+* Powershell
+  * `!p` - `echo `
 
 <!-- ## Extension Settings -->
 

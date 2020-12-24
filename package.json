@@ -46,7 +46,7 @@
                 "path": "./snippets/py_snippets.code-snippets"
             },
             {
-                "language": "shell",
+                "language": "shellscript",
                 "path": "./snippets/sh_snippets.code-snippets"
             },
             {
