@@ -13,12 +13,12 @@
     "contributes": {
         "snippets": [
             {
-                "language": "C++",
-                "path": "./snippets/cpp_snippets.code-snippets"
-            },
-            {
                 "language": "javascript",
                 "path": "./snippets/js_snippets.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/ts_snippets.code-snippets"
             }
         ]
     }
