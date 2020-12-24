@@ -1,0 +1,9 @@
+{
+    "printf": {
+        "prefix": "!p",
+        "body": [
+            "console.log(${1:Print});"
+        ],
+        "description": "Prints with console.log"
+    }
+}

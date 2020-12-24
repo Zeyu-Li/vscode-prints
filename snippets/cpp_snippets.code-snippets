@@ -1,0 +1,9 @@
+{
+    "printf": {
+        "prefix": "!p",
+        "body": [
+            "printf(\"%${1:Input Type}\\n\", ${2:Input})"
+        ],
+        "description": "Prints with printf"
+    }
+}

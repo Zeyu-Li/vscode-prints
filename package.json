@@ -1,0 +1,25 @@
+{
+    "name": "vscode-prints",
+    "displayName": "vscode prints",
+    "description": "Print snippets in multiple languages so you don't have to type them",
+    "version": "1.0.0",
+    "publisher": "Andrew Li",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "C++",
+                "path": "./snippets/cpp_snippets.code-snippets"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/js_snippets.code-snippets"
+            }
+        ]
+    }
+}
