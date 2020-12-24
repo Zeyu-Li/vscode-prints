@@ -1,0 +1,10 @@
+{
+    "echo": {
+        "prefix": "!p",
+        "body": [
+            "echo ${1}",
+            ""
+        ],
+        "description": "Prints with echo"
+    }
+}

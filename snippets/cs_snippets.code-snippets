@@ -1,0 +1,10 @@
+{
+    "print": {
+        "prefix": "!p",
+        "body": [
+            "Console.WriteLine(\"${1}\");",
+            ""
+        ],
+        "description": "Prints with console"
+    }
+}

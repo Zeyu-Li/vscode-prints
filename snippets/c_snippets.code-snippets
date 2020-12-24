@@ -1,0 +1,10 @@
+{
+    "printf": {
+        "prefix": "!p",
+        "body": [
+            "printf(\"%${1}\\n\", ${2});",
+            ""
+        ],
+        "description": "Prints with printf"
+    }
+}

@@ -2,28 +2,32 @@
     "Console logs": {
         "prefix": "!p",
         "body": [
-            "console.log(${1:Print});"
+            "console.log(${1});",
+            ""
         ],
         "description": "Prints with console.log"
     },
     "Console debugs": {
         "prefix": "!d",
         "body": [
-            "console.debug(${1:Debug});"
+            "console.debug(${1});",
+            ""
         ],
         "description": "Debugs with console.debug"
     },
     "Console errors": {
         "prefix": "!e",
         "body": [
-            "console.error(${1:Error});"
+            "console.error(${1});",
+            ""
         ],
         "description": "Prints error with console.error"
     },
     "Console warns": {
         "prefix": "!w",
         "body": [
-            "console.warn(${1:Warns});"
+            "console.warn(${1});",
+            ""
         ],
         "description": "Prints warning with console.warn"
     }

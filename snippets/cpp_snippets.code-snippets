@@ -2,8 +2,25 @@
     "printf": {
         "prefix": "!p",
         "body": [
-            "printf(\"%${1:Input Type}\\n\", ${2:Input})"
+            "printf(\"%${1:Input Type}\\n\", ${2:Input});",
+            ""
         ],
         "description": "Prints with printf"
+    },
+    "cout": {
+        "prefix": "!c",
+        "body": [
+            "cout << ${1} << endl;",
+            ""
+        ],
+        "description": "Prints with cout"
+    },
+    "std::cout": {
+        "prefix": "!sc",
+        "body": [
+            "std::cout << ${1} << std::endl;",
+            ""
+        ],
+        "description": "Prints with std::cout"
     }
 }
